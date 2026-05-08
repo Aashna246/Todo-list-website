@@ -1,0 +1,60 @@
+*{
+    margin: 550;
+    padding: 0;
+}
+
+#todo-list li:hover{
+    background-color: #e8ffe6;
+}
+
+body{
+    background-color: #cdb4db;
+    background: linear(#d6c6df, #8737b5);
+    font-size: 17px;
+}
+
+#add-btn:hover{
+    background-color: #1bc20f;
+}
+
+#todo-list button:hover{
+    background-color: rgb(239, 38, 38);
+}
+
+#todo-input:focus{
+    border-color: blue;
+}
+
+#todo-input,
+#add-btn,
+#todo-list li{
+    border-radius: 6px;
+}
+
+#add-btn{
+    padding: 7px;
+}
+
+#todo-list li{
+    margin-bottom: 10px;
+}
+
+#todo-list li{
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 33px;
+}
+
+#todo-input{
+    padding: 8px;
+    width: 250px;
+}
